@@ -9,7 +9,7 @@ title: "3DHub"
 
 ## 1 Introduction
 
-The [3Dhub Connectpr](https://) module lets you visualize and operate on 3D JT Models on browser  The module contains Java actions, Javascript actions, domain modules, microflows and a set of 3D wigets that enables you to build app to work with JT modesl with ease. All you need to do is drag and drop items and onfigure them. 
+The [3Dhub](https://) module lets you visualize and operate on 3D JT Models on browser  The module contains Java actions, Javascript actions, domain modules, microflows and a set of 3D wigets that enables you to build app to work with JT modesl with ease. All you need to do is drag and drop items and onfigure them. 
 
 **This how-to will teach you how to do the following:**
 
