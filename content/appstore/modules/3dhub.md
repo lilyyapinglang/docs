@@ -9,7 +9,13 @@ title: "3DHub"
 
 ## 1 Introduction
 
-The [3Dhub](https://) module lets you visualize and operate on 3D JT Models on browser  The module contains Java actions, Javascript actions, domain modules, microflows and a set of 3D wigets that enables you to build app to work with JT modesl with ease. All you need to do is drag and drop items and onfigure them. 
+The [3Dhub](https://xxxx) module lets you visualize and operate on 3D JT Models on browser. The module contains Java actions, JavaScript actions, domain models, micro-flows and a set of 3D widgets that enable you build app to work with JT models . All you need to do is drag and drop items and configure them.
+### 1.1 Typical Use Cases 
+End-users can do the following with this module : 
+ - 
+ -
+ - 
+### 1.2 Limitations
 
 **This how-to will teach you how to do the following:**
 
@@ -23,8 +29,9 @@ The [3Dhub](https://) module lets you visualize and operate on 3D JT Models on b
 
 Before starting this how-to, make sure you have completed the following prerequisites:
 
-* {Prerequisite 1}
-* {Prerequisite 2}
+* Register as a user of SAM 
+* Configure right acccess to the SAM user
+* Obtain `accessKey`and `secretAccessKey` of that user. 
 
 ## 3 {Title of Section Using Present Participle Verb/Gerund}
 
