@@ -9,10 +9,12 @@ title: "3DViewer"
 
 ## 1 Introduction
 
-The [3DViewer](https://appstore.home.mendix.com/link/app/114764/) module lets you visualize and operate on 3D JT Models on browser. The module contains Java actions, JavaScript actions, domain models, micro-flows and a set of 3D widgets that enable you build app to work with JT models . All you need to do is drag and drop items and configure them. This avoids building 3D rendering liba
+The [3DViewer](https://appstore.home.mendix.com/link/app/114764/) module lets you upload, load, visualize and operate on 3D JT files in your web applications. The module contains Java actions, JavaScript actions, domain models, micro-flows and a set of 3D widgets that enable you build app to work with JT models . The module include whole functionalities and integrations that can be very helpful when you are building your own 3D applications. All you need to do is drag and drop items and configure them. This avoids building 3D rendering liba. 
 ### 1.1 Typical Use Cases 
 You can use the module when you want to upload, store and visualize 3D JT models in your application, and perform some basic operations such us  model product structure tree, PMI Tree.
-Features: (Version 1)
+### 1.2 Features 
+The module consists of micrflow actions, xxxxxx that enables doing the following: 
+ (Version 1)
 - Displays JT files (both shattered and monolithic)
 - Product Structure Navigation and part search
 - Zoom, rotate, fit all
@@ -34,7 +36,11 @@ Visualization Tools Available: (Version 2)
 - 3D Section (Create 3D cross sections)
 - 3D Standard Views (Examine your model from preset viewing angles)
 
-### 1.2 Limitations
+### 1.3 Dependencies
+3DViewer module uses some APIs provided by Teamcenter Connector module v2.1.0 to enable searching and loading model from Teamcenter:
+* [Teamceneter Connector](https://appstore.home.mendix.com/link/app/111627/)
+
+### 1.4 Limitations
 
 **This how-to will teach you how to do the following:**
 
