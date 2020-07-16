@@ -54,11 +54,27 @@ Visualization Tools Available: (Version 2)
 
 Before starting this how-to, make sure you have completed the following prerequisites:
 
-* Register as a user of SAM 
-* Configure right acccess to the SAM user
-* Obtain `accessKey`and `secretAccessKey` of that user. 
+* Register a SAM account
+* Create a group called VisualizationUser
+* Create a policy
+* Attach the policy to the group
+* Create a user belongs to the group
+* Generate its `accessKey` and `secretAccessKey`
 
-## 3 {Title of Section Using Present Participle Verb/Gerund}
+## 3 Installation
+
+1. Import the 3DViewer module into your app project
+2. Download Teamcenter Connector module v2.1.0 into your app project
+3.  Map the 'Administrator' and 'User' module role to the applicable user roles in your app.
+4.  Add the **Startup** microflow to your navigation structure. Set this microflow as `After startup` step in project settings. 
+5.  Configure all the constants:
+    *  `SamAccessKey`
+    *  `SAMSecretAccessKey`
+   
+## 4 Configuration 
+
+
+## 4 {Title of Section Using Present Participle Verb/Gerund}
 
 To {do this task}, follow these steps:
 
