@@ -9,7 +9,7 @@ title: "3DViewer"
 
 ## 1 Introduction
 
-The [3DViewer](https://appstore.home.mendix.com/link/app/114764/) module lets you upload, load, visualize and operate on 3D JT files in your web applications. The module contains Java actions, JavaScript actions, domain models, micro-flows and a set of 3D widgets that enable you build app to work with JT models . The module include whole functionalities and integrations that can be very helpful when you are building your own 3D applications. All you need to do is drag and drop items and configure them. This avoids building 3D rendering liba. 
+The [3DViewer](https://appstore.home.mendix.com/link/app/114764/) module lets you upload, load, visualize and operate on 3D JT files in your web applications. The module contains Java actions, JavaScript actions, domain models, nanoflows, micro-flows and a set of 3D widgets that enable you build app to work with JT models . The module include whole functionalities and integrations that can be very helpful when you are building your own 3D applications. All you need to do is drag and drop items and configure them. This avoids building 3D rendering liba. 
 ### 1.1 Typical Use Cases 
 You can use the module when you want to upload, store and visualize 3D JT models in your application, and perform some basic operations such us  model product structure tree, PMI Tree.
 ### 1.2 Features 
@@ -65,16 +65,16 @@ Before starting this how-to, make sure you have completed the following prerequi
 
 1. Import the 3DViewer module into your app project
 2. Download Teamcenter Connector module v2.1.0 into your app project
-3.  Map the 'Administrator' and 'User' module role to the applicable user roles in your app.
+3.  Map 'Administrator' and 'User' module role of above 2 modules to the applicable user roles in your app.
 4.  Add the **Startup** microflow to your navigation structure. Set this microflow as `After startup` step in project settings. 
-5.  Configure all the constants:
-    *  `SamAccessKey`
-    *  `SAMSecretAccessKey`
-   
-## 4 Configuration 
 
+## 4 Configuration
 
-## 4 {Title of Section Using Present Participle Verb/Gerund}
+Some constants are needed in the startup microflow.  This microflow will provide connectivity to the backend service, and will be set as "After startup" step in project settings, which means this microflow will automatically be executed after the application has been started up.
+
+Therefore at least 2 constants need to be set, `SamAccessKey` and `SAMSecretAccessKey`. Simply go to `Project -> Settings->Configurations tab->Edit-> Constants tab-> New -> Select contants in Viewer3D module-> Set SamAccessKey and SAMSecretAccessKey respectively.`
+
+## 5 {Title of Section Using Present Participle Verb/Gerund}
 
 To {do this task}, follow these steps:
 
@@ -87,8 +87,26 @@ To {do this task}, follow these steps:
 
 {Use sub-sections for more detail.}
 
-## 4 Read More
+## 6 3D Widgets
 
+These are the widgets include in this module along with links to their configuration details.
+
+| Widget                                          | Description                                                                                                         |
+| ----------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| [Container3D](https://xxx)                      | Where every 3D widgets should be placed in to get the shared context .                                              |
+| [PMI Tree](https://xxx)                         | Provides a hierarchical tree display of a model's product manufactoring information, model views and design groups. |
+| [PS Tree](https://xxx)                          | Provides a hierarchical classification of the items which form a product.                                           |
+| [Sectioning](https://xxx)                       | Provides default animations for contents and widgets.                                                               |
+| [Tool bar item camera mode](https://xxx)        | Provides ability to control the apperance of surface objects displayed in the view, The option determine whether surface objects are represented on the display by facet geometry, edge geometry |
+| [Tool bar item camera orientation](https://xxx) | Provides default animations for contents and widgets.                                                               |
+| [Tool bar item explode slider](https://xxx)     | The explode slider allows you to create an exploded view of your assembly                                           |
+| [Tool bar item fit all](https://xxx)            | Provides capability to scale the model to fit within the viewing window                                             |
+| [Tool bar item render mode](https://xxx)        | Provides default animations for contents and widgets.                                                               |  | [Tool bar item selection mode](https://xxx) | Provides capability to |
+| [Uploader](https://xxx)                         | Enables user to upload their own model to be viewed in browser or the app.                                          |
+| [Url image viewer](https://xxx)                 | Provides display of model thumbnail.                                                                                |
+| [Viewer](https://xxx)                           | Provides viewing window of your 3D Model when you open a model, zoom or rotate                                      |
+
+## 7 Read More
 * {Link 1}
 * {Link2} – {an explanation when necessary especially if this is a third-party link}
 
